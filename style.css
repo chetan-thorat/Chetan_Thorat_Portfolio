@@ -1,0 +1,102 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+/* Target the LinkedIn link and make it red */
+a[href="https://www.linkedin.com/in/chetan-thorat-11763b209/"] {
+    color: red;
+}
+
+/* Target the GitHub link and make it red */
+a[href="https://github.com/chetan-thorat"] {
+    color: red;
+}
+
+/* Apply circular clipping to the square photo */
+.square-photo {
+    width: 190px; /* Set the desired dimensions */
+    height: 210px;
+    border-radius: 90%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the entire circular area */
+}
+
+
+header {
+    background-color: #0a0a0ae1;
+    color: #fae6e6;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #ba1b1b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d8d0d0;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Additional CSS styles go here */
+
+/* Contact form styles */
+#contactForm {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
